@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTheme.Tags", "SmartTheme.Tags\SmartTheme.Tags.csproj", "{E0726A5D-79DE-4A31-A6DB-BDDA2E941FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTheme.Core", "SmartTheme.Core\SmartTheme.Core.csproj", "{8396632C-6E1F-4BD7-8D1A-84EBFF0B943A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0726A5D-79DE-4A31-A6DB-BDDA2E941FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0726A5D-79DE-4A31-A6DB-BDDA2E941FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0726A5D-79DE-4A31-A6DB-BDDA2E941FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0726A5D-79DE-4A31-A6DB-BDDA2E941FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8396632C-6E1F-4BD7-8D1A-84EBFF0B943A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8396632C-6E1F-4BD7-8D1A-84EBFF0B943A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8396632C-6E1F-4BD7-8D1A-84EBFF0B943A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8396632C-6E1F-4BD7-8D1A-84EBFF0B943A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3F6F205-59F8-4BF9-A0AA-636F5C8696C5}
+	EndGlobalSection
+EndGlobal
