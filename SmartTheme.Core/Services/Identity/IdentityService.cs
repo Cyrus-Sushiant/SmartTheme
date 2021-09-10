@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using SmartTheme.Core.Domain.Identity;
+using SmartTheme.Core.Extensions;
+using SmartTheme.Core.Services.Identity.Helper;
 
 namespace SmartTheme.Core.Services.Identity
 {
