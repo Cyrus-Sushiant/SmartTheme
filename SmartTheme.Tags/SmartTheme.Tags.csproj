@@ -1,15 +1,37 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Cyrus</Authors>
+    <Version>1.0.0</Version>
+    <Description>The admin template based most popular front-end framework for developing responsive, mobile first projects on the web.</Description>
+    <RepositoryUrl>https://github.com/Cyrus-Sushiant/SmartTheme</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Company>SmartClouds.co</Company>
+    <PackageId>SmartTheme.Tags</PackageId>
+    <Copyright>MIT License</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Cyrus-Sushiant/SmartTheme</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
+    <Product>SmartTheme.Tags</Product>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SmartTheme.Core\SmartTheme.Core.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
+    <PackageReference Include="SmartTheme.Core" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
