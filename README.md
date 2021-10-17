@@ -8,6 +8,7 @@ The admin template based most popular front-end framework for developing respons
 
 ## Available for
 * .Net 5.0
+* .Net 6.0
 
 # Install
 ```
